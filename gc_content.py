@@ -13,5 +13,6 @@ for i in splitdata:
   cgcontent.append(100*(cgdata.count('C')+cgdata.count('G'))/float(len(cgdata)))
 maxi = cgcontent.index(max(cgcontent))
 
+
 print ids[maxi]
 print cgcontent[maxi]
