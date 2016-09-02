@@ -10,7 +10,7 @@ def comb(s, t):
   lc = []
   nf = 0
   while s.find(t, nf) != -1:
-    nf = s.find(t,nf)
+    nf = s.find(t, nf)
     nf += 1
     lc.append(str(nf))
   return " ".join(lc)
