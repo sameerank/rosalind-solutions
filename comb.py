@@ -15,7 +15,7 @@ def comb(s, t):
     lc.append(str(nf))
   return " ".join(lc)
     
-fin = open('rosalind_subs.txt','r')
+fin = open('rosalind_subs.txt', 'r')
 sin = fin.readline().rstrip('\n')
 tin = fin.readline().rstrip('\n')
 fin.close()
