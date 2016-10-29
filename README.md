@@ -1,3 +1,3 @@
-# rosalind solutions
+# Rosalind solutions
 
 http://rosalind.info/
